@@ -139,11 +139,11 @@ result = abc_inference_multigpu(
 ```
 release/
 ├── datatools/          # Dataset classes
-│   ├── dataset_wt.py     # Wind Terrain
-│   ├── dataset_hr.py     # Heat Rectangle
-│   ├── dataset_hc.py     # Helmholtz Car
-│   ├── dataset_af.py     # Airfoil CFD
-│   └── dataset_stats.py  # Normalization utilities
+│   ├── dataset_wt.py       # Wind Terrain
+│   ├── dataset_hr.py       # Heat Rectangle
+│   ├── dataset_hc.py       # Helmholtz Car
+│   ├── dataset_af.py       # Airfoil CFD
+│   └── compute_ds_stats.py # Normalization utilities
 ├── models/             # GABI architectures
 │   ├── gae_gcn.py        # GCN-based autoencoder
 │   ├── gae_gen.py        # GEN-based autoencoder
@@ -184,12 +184,12 @@ All models can be configured via YAML files. Key parameters:
 
 ```yaml
 model_settings:
-  model_type: 'GEN'  # 'GCN', 'GEN', or 'T' (Transformer)
+  model_type: 'GEN'  # 'GCN', 'GEN', or 'Transformer'
   latent_dim: 128    # Hidden layer dimension
   z_dim: 16          # Latent space dimension
   n_layers: 6        # Number of layers (GCN/GEN only)
   use_boundary_encoding: True  # Include boundary type encoding
-  use_pos: False     # Include node positions as features
+  use_pos: True     # Include node positions as features
 
   # Transformer-specific
   n_heads: 4         # Number of attention heads
