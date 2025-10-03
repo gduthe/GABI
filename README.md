@@ -145,11 +145,10 @@ release/
 │   ├── dataset_af.py       # Airfoil CFD
 │   └── compute_ds_stats.py # Normalization utilities
 ├── models/             # GABI architectures
-│   ├── gae_gcn.py        # GCN-based autoencoder
-│   ├── gae_gen.py        # GEN-based autoencoder
+│   ├── gae_gcn.py         # GCN-based autoencoder
+│   ├── gae_gen.py         # GEN-based autoencoder
 │   ├── gae_transformer.py # Transformer autoencoder
-│   ├── building_blocks.py # Reusable components
-│   └── stat.py           # MMD loss
+│   └── stat.py            # MMD loss
 ├── training_scripts/   # Training utilities
 │   ├── train_single_gpu.py
 │   └── train_ddp.py
