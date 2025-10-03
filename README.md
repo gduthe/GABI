@@ -99,7 +99,7 @@ model.load_state_dict(torch.load('path/to/model.pt')['model_state_dict'])
 model.eval()
 
 # Prepare observation data (partial observations with NaNs for unobserved nodes)
-# data.x should have NaN for unobserved features
+# data.x should have NaNs for the features of the unobserved nodes 
 
 # Run ABC inference
 result = abc_inference(
@@ -246,7 +246,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [dutheg@ethz.ch](dutheg@ethz.ch).
+For questions or issues, please open an issue on GitHub or contact [dutheg@ethz.ch](mailto:dutheg@ethz.ch).
 
 
 ### Contributing
