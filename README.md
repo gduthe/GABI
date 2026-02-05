@@ -241,7 +241,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Built with [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/)
 - MMD loss adapted from [mmd_loss_pytorch](https://github.com/yiftachbeer/mmd_loss_pytorch)
-- Transformer attention mechanisms inspired by [Galerkin Transformer](https://arxiv.org/abs/2105.14995)
 - Using data from the [ETH ASL Windseer project](https://projects.asl.ethz.ch/datasets/doku.php?id=nature_2024_windseer), by Achermann, Florian, et al. "WindSeer: real-time volumetric wind prediction over complex terrain aboard a small uncrewed aerial vehicle." Nature Communications 15.1 (2024): 3507. 
 
 ## Contact
