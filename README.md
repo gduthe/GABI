@@ -2,7 +2,7 @@
 
 **Learn First, Observe Later**: A geometry-aware framework for Bayesian inference on physical systems with variable geometries.
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/pdf/2509.19929)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2509.19929)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Overview
